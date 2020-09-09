@@ -28,6 +28,8 @@ def main_menu(msg):
 
     bot.register_next_step_handler(choose_step_0, msg)
     
+#     bot.register_next_step_handler(choose_step_0, msg)
+    
 def choose_step_0(msg):
     print (msg)
     if 'Помощь' in msg.text:
